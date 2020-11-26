@@ -3,9 +3,10 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-mongoose.connect('mongodb://localhost/urlShortener', {
+mongoose.connect('mongodb+srv://kickvire:admin786@storageurl.anyj5.mongodb.net/storageurl?retryWrites=true&w=majority', {
   useNewUrlParser: true, useUnifiedTopology: true
 })
+
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))

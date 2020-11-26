@@ -1,18 +1,11 @@
 # NewsBytes-project
 
 
-## Available Scripts
+## For Fronted part: ejs template engine
 
-In the project directory, you can run:
+## For Backend part: express framework,node js
 
-### `npm install`
- move to the project directory and run the above  code ,it will install all the dependencies associated with this project
- 
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+## For Database: MongoDb
 
 
 
